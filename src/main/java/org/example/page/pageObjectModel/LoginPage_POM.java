@@ -1,5 +1,7 @@
 package org.example.page.pageObjectModel;
 //import org.example.wailt.WailtHelper;
+import org.apache.logging.log4j.Logger;
+import org.example.utils.LoggerHelper;
 import org.example.utils.PropertyReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +17,7 @@ public class LoginPage_POM {
     public LoginPage_POM(WebDriver driver) {
         this.driver = driver;
     }
+    private static final Logger log = LoggerHelper.getLogger(LoginPage_POM.class);
 
     private By username = By.id("cust_user_id");
     private By password = By.id("passwd");

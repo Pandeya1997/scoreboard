@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6576133-5f5f-4387-9b97-cef775dd6ec8" name="Changes" comment="Add score board porject">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/TestSBLogin_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/LoggerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/AdminLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/page/pageFactory/LoginPage_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/page/pageFactory/LoginPage_PF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/page/pageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/page/pageObjectModel/LoginPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/page/pageObjectModel/LoginPage_SPOM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/AdminLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/TestVWOLogin_PF_DM_QA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/TestSBogin_PF_DM_QA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/TestVWOLogin_POM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/wailt/WailtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/wailt/WailtHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/TestSBLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/TestSBLogin_POM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +56,9 @@
     "TestNG.TestVWOLogin_POM.testLoginPositiveVWO04.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -162,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/AARRSOL/IdeaProjects/Scoreboard/testng.xml" />
+        <item itemvalue="TestNG.TestSBLogin_POM" />
         <item itemvalue="TestNG.TestSBLogin_POM.testLoginPositiveSB04" />
         <item itemvalue="TestNG.TestSBogin_PF_DM_QA" />
         <item itemvalue="TestNG.TestSBogin_PF_DM_QA.testLoginNegativeVWO" />
-        <item itemvalue="TestNG.TestSBLogin_POM" />
       </list>
     </recent_temporary>
   </component>

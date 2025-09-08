@@ -29,7 +29,8 @@ public class DriverManager {
         }
 
         if (browser == null || browser.isEmpty()) {
-            browser = "edge"; // ✅ default browser
+            browser = "edge";// ✅ default browser
+            browser = "chrome";
         }
 
         if (driver == null) {
