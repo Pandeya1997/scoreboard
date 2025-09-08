@@ -12,13 +12,13 @@ import java.io.FileNotFoundException;
 public class LoginPage_PF extends CommonToAllPage {
     WebDriver driver;
     // Page Locator
-    @FindBy(id = "login-username")
+    @FindBy(id = "cust_user_id")
     private WebElement username;
-    @FindBy(id = "login-password")
+    @FindBy(id = "passwd")
     private WebElement password;
-    @FindBy(id = "js-login-btn")
+    @FindBy(xpath = "//button[@type='button']")
     private WebElement signButton;
-    @FindBy(className = "notification-box-description")
+    @FindBy(xpath = "//div[contains(text(),'Invalid username or password.')]")
     private WebElement error_msg;
     public LoginPage_PF(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -26,7 +26,7 @@ public class LoginPage_PF extends CommonToAllPage {
     }
 
     // Page Actions
-    public String loginTOVWOInvalidCreds() throws FileNotFoundException {
+    public String loginTOSBInvalidCreds() throws FileNotFoundException {
 
         enterInput(username, PropertyReader.readkey("invalid_username"));
         enterInput(password, PropertyReader.readkey("invalid_password"));

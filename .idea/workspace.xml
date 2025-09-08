@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6576133-5f5f-4387-9b97-cef775dd6ec8" name="Changes" comment="Add score board porject">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/TestSBLogin_POM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/page/pageFactory/LoginPage_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/page/pageFactory/LoginPage_PF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/page/pageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/page/pageObjectModel/LoginPage_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/page/pageObjectModel/LoginPage_SPOM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/AdminLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/TestVWOLogin_PF_DM_QA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/TestSBogin_PF_DM_QA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/TestVWOLogin_POM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/wailt/WailtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/wailt/WailtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +50,37 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/AARRSOL/IdeaProjects/Scoreboard/testng.xml.executor": "Run",
+    "TestNG.TestSBLogin_POM.executor": "Run",
+    "TestNG.TestSBLogin_POM.testLoginPositiveSB04.executor": "Run",
+    "TestNG.TestSBogin_PF_DM_QA.executor": "Run",
     "TestNG.TestVWOLogin_PF_DM_QA.executor": "Run",
+    "TestNG.TestVWOLogin_PF_DM_QA.testLoginNegativeVWO.executor": "Run",
     "TestNG.TestVWOLogin_POM.executor": "Run",
-    "TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor": "Run",
+    "TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor": "Debug",
+    "TestNG.TestVWOLogin_POM.testLoginPositiveVWO04.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestVWOLogin_POM.testLoginNegativeVWO">
+  <component name="RunManager" selected="TestNG.C:/Users/AARRSOL/IdeaProjects/Scoreboard/testng.xml">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="VWO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="VWO" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/AARRSOL/IdeaProjects/Scoreboard/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Scoreboard" />
+      <module name="VWO" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -57,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_PF_DM_QA" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Scoreboard" />
+    <configuration name="TestSBLogin_POM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VWO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.tests.*" />
@@ -66,7 +98,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.tests.TestVWOLogin_PF_DM_QA" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.TestSBLogin_POM" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -74,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_POM" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Scoreboard" />
+    <configuration name="TestSBLogin_POM.testLoginPositiveSB04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VWO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.tests.*" />
@@ -83,7 +115,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.tests.TestVWOLogin_POM" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.TestSBLogin_POM" />
+      <option name="METHOD_NAME" value="testLoginPositiveSB04" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSBogin_PF_DM_QA" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VWO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.TestSBogin_PF_DM_QA" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -91,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_POM.testLoginNegativeVWO" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Scoreboard" />
+    <configuration name="TestSBogin_PF_DM_QA.testLoginNegativeVWO" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VWO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.tests.*" />
@@ -100,7 +150,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.tests.TestVWOLogin_POM" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.TestSBogin_PF_DM_QA" />
       <option name="METHOD_NAME" value="testLoginNegativeVWO" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -111,10 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestVWOLogin_POM.testLoginNegativeVWO" />
-        <item itemvalue="TestNG.TestVWOLogin_POM" />
         <item itemvalue="TestNG.C:/Users/AARRSOL/IdeaProjects/Scoreboard/testng.xml" />
-        <item itemvalue="TestNG.TestVWOLogin_PF_DM_QA" />
+        <item itemvalue="TestNG.TestSBLogin_POM.testLoginPositiveSB04" />
+        <item itemvalue="TestNG.TestSBogin_PF_DM_QA" />
+        <item itemvalue="TestNG.TestSBogin_PF_DM_QA.testLoginNegativeVWO" />
+        <item itemvalue="TestNG.TestSBLogin_POM" />
       </list>
     </recent_temporary>
   </component>
@@ -157,5 +208,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add score board porject" />
     <option name="LAST_COMMIT_MESSAGE" value="Add score board porject" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/base/CommonToAllPage.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

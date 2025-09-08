@@ -21,33 +21,35 @@ public class DriverManager {
     }
 
     public static void init() {
-
-        String browser = null;
+        String browser;
         try {
             browser = PropertyReader.readkey("browser");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
 
+        if (browser == null || browser.isEmpty()) {
+            browser = "edge"; // ✅ default browser
+        }
 
         if (driver == null) {
-            switch (browser) {
+            switch (browser.toLowerCase()) {
                 case "edge":
                     EdgeOptions edgeOptions = new EdgeOptions();
                     edgeOptions.addArguments("--start-maximized");
                     edgeOptions.addArguments("--guest");
                     driver = new EdgeDriver(edgeOptions);
                     break;
+
                 case "chrome":
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.addArguments("--start-maximized");
                     driver = new ChromeDriver(chromeOptions);
                     break;
+
                 default:
-                    System.out.println("Not browser Found!!");
+                    throw new RuntimeException("❌ Browser not supported: " + browser);
             }
-
-
         }
     }
 
